@@ -32,7 +32,7 @@ namespace Domain.Entities
         public bool AreEqual(BaseEntities entity1, BaseEntities entity2)
         {
             if (ReferenceEquals(entity1, entity2)) return true;
-            if (entity1 is null || entity2 is not null) return false;
+            if (entity1 is null || entity2 is null) return false;
             return Equals(entity1, entity2);
         }
         
