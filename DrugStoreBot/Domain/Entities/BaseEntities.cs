@@ -40,10 +40,5 @@ namespace Domain.Entities
         {
             return !(entity1 == entity2);
         }
-        
-        
-        //TODO: Переоределить операторы == и !=
-
-        //Разобраться с Dookerom и навигацией PassGress последняяяяяя версия 
     }
 }
