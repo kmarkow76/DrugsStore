@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "24UoW6y/c44=",
+  "dgSpecHash": "A7ONNCtWXxE=",
   "success": true,
   "projectFilePath": "D:\\DEX\\DrugsStore\\DrugStoreBot\\Domain\\Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Кирилл\\.nuget\\packages\\fluentvalidation\\11.10.0\\fluentvalidation.11.10.0.nupkg.sha512"
+  ],
   "logs": []
 }

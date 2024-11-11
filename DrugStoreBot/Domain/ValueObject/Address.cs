@@ -5,11 +5,13 @@ namespace Domain.ValueObject
     /// </summary>
     public class Address
     {
-        public Address(string street, string city, string home)
+        public Address(string street, string city, string house, string postalCode, string country)
         {
             Street = street;
             City = city;
-            Home = home;
+            House = house;
+            PostalCode = postalCode;
+            Country = country;
         }
         /// <summary>
         /// Улица
@@ -22,6 +24,19 @@ namespace Domain.ValueObject
         /// <summary>
         /// Дом
         /// </summary>
-        public string Home { get; set; }
+        public string House{ get; set; }
+        public string PostalCode { get; set; }
+        /// <summary>
+        /// Код страны (ISO)
+        /// </summary>
+        public string Country { get; private set; }
+        /// <summary>
+        /// Возвращает строковое представление адреса.
+        /// </summary>
+        /// <returns>Строка, представляющая адрес.</returns>
+        public override string ToString()
+        {
+            return $"{City}, {Street}, {House}, {PostalCode}";
+        }
     }
 }
