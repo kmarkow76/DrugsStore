@@ -7,10 +7,9 @@ namespace Domain.Validators;
 
 public class DrugValidator: AbstractValidator<Drug>
 {
-    private readonly List<string> _countryCodes = new List<string> { "US", "CA", "FR", "DE", "GB", "RU", "JP", "CN" }; 
     public DrugValidator()
     { 
-        //Объямниьб BaseValueObj (подробно)
+        //Объяснить BaseValueObj (подробно)
         RuleFor(d => d.Name)
             .NotNull().WithMessage(ValidationMessage.NotNull)
             .NotEmpty().WithMessage(ValidationMessage.NotEmpty)
@@ -30,7 +29,8 @@ public class DrugValidator: AbstractValidator<Drug>
     }
     private bool BeAValidCountryCode(string countryCodeId)
     {
-        return _countryCodes.Contains(countryCodeId);
+        var countryCodes = new List<string> { "US", "CA", "FR", "DE", "GB", "RU", "JP", "CN" }; 
+        return countryCodes.Contains(countryCodeId);
     }
 
 }
