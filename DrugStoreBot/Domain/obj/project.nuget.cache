@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "A7ONNCtWXxE=",
+  "dgSpecHash": "SXRogahCjxQ=",
   "success": true,
   "projectFilePath": "D:\\DEX\\DrugsStore\\DrugStoreBot\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Кирилл\\.nuget\\packages\\fluentvalidation\\11.10.0\\fluentvalidation.11.10.0.nupkg.sha512"
+    "C:\\Users\\Кирилл\\.nuget\\packages\\fluentvalidation\\11.10.0\\fluentvalidation.11.10.0.nupkg.sha512",
+    "C:\\Users\\Кирилл\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",
+    "C:\\Users\\Кирилл\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\Кирилл\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
   ],
   "logs": []
 }

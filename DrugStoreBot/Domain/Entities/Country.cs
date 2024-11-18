@@ -3,7 +3,7 @@ namespace Domain.Entities
     /// <summary>
     /// Страна производитель
     /// </summary>
-    public class Country : BaseEntities
+    public class Country : BaseEntities<Country>
     {
         /// <summary>
         /// Конструктор для инициализации страны с названием и кодом.

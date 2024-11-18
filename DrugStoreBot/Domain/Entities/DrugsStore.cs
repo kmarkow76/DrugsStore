@@ -1,3 +1,4 @@
+using Domain.Validators;
 using Domain.ValueObject;
 
 namespace Domain.Entities
@@ -5,7 +6,7 @@ namespace Domain.Entities
     /// <summary>
     /// Магазин лекарств
     /// </summary>
-    public class DrugsStore : BaseEntities
+    public class DrugsStore : BaseEntities<DrugsStore>
     {
         public DrugsStore(string drugNetwork, int number, Address address, string phoneNumber)
         {
@@ -13,6 +14,8 @@ namespace Domain.Entities
             Number = number;
             Address = address;
             PhoneNumber = phoneNumber;
+            
+            ValidateEntity(new DrugStoreValidator());
         }
 
         /// <summary>
