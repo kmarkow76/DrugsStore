@@ -1,3 +1,4 @@
+using Domain.DomainEvents;
 using Domain.Validators;
 
 namespace Domain.Entities
@@ -44,10 +45,11 @@ namespace Domain.Entities
         /// <param name="count"></param>
         public void UpdateDrugCount(double count)
         {
+            var oldCount = Count; 
             Count = count;
             ValidateEntity(new DrugItemValidator());
 
-            AddDomainEvent(new DrugItemUpdatedEvent());
+            AddDomainEvent(new DrugItemUpdatedEvent(Id, oldCount, count));
         }
         
     }

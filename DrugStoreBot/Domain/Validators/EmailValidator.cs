@@ -7,7 +7,6 @@ public class EmailValidator:AbstractValidator<Email>
 {
     public EmailValidator()
     {
-        // Валидация для Cost (стоимость)
         RuleFor(d => d.Value)
             .NotEmpty().WithMessage(ValidationMessage.NotNull)
             .Length(2, 255).WithMessage(ValidationMessage.WrongLength)

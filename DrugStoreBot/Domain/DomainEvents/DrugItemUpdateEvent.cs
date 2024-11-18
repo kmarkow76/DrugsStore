@@ -7,5 +7,14 @@ namespace Domain.DomainEvents;
 /// </summary>
 public sealed class DrugItemUpdatedEvent : IDomainEvent
 {
-    internal DrugItemUpdatedEvent(){}
+    public Guid DrugItemId { get; }
+    public double OldCount { get; }
+    public double NewCount { get; }
+
+    public DrugItemUpdatedEvent(Guid drugItemId, double oldCount, double newCount)
+    {
+        DrugItemId = drugItemId;
+        OldCount = oldCount;
+        NewCount = newCount;
+    }
 }

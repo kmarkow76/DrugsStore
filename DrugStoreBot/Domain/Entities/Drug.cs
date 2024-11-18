@@ -8,6 +8,10 @@ namespace Domain.Entities
     /// </summary>
     public class Drug:BaseEntities<Drug>
     {
+        public Drug()
+        {
+        }
+
         public Drug(string name, string manufacturer, string countryCodeId, Country country)
         {
             Name = name;
