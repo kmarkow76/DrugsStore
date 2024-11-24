@@ -39,7 +39,20 @@ namespace Domain.Entities
         
         // Навигационное свойство для связи с объектом Country
         public Country Country { get; private set; }
-        
+        /// <summary>
+        /// Метод для обновления Drug
+        /// </summary>
+        /// <param name="name"></param>
+        /// <param name="manufacturer"></param>
+        /// <param name="countryCodeId"></param>
+        /// <param name="country"></param>
+        public void Update(string name, string manufacturer, string countryCodeId, Country country)
+        {
+            Name = name;
+            Manufacturer = manufacturer;
+            CountryCodeId = countryCodeId;
+            Country = country;
+        }
         // Навигационное свойство для связи с DrugItem
         public ICollection<DrugItem> DrugItems { get; private set; } = new List<DrugItem>();
 

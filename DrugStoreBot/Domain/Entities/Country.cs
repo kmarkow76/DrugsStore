@@ -15,7 +15,7 @@ namespace Domain.Entities
             Name = name;
             Code = code;
         }
-
+        
         /// <summary>
         /// Название страны
         /// </summary>
@@ -24,6 +24,16 @@ namespace Domain.Entities
         /// Код страны
         /// </summary>
         public string Code { get; private set; }
+        /// <summary>
+        /// Публичный метод для обновления значений Country
+        /// </summary>
+        /// <param name="name"></param>
+        /// <param name="code"></param>
+        public void Update(string name, string code)
+        {
+            Name = name;
+            Code = code;
+        }
         
         public ICollection<Drug> Drugs { get; private set; } = new List<Drug>();
     }

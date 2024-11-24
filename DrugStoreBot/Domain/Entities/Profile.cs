@@ -4,6 +4,9 @@ using Domain.Entities;
 
 namespace Domain.Entities;
 
+/// <summary>
+/// Профиль пользователя(тг)
+/// </summary>
 public class Profile:BaseEntities<Profile>
 {
     public Profile(string externalId, Email? email)
@@ -17,7 +20,7 @@ public class Profile:BaseEntities<Profile>
     /// <summary>
     /// Внешний идентификатор.
     /// </summary>
-    public string ExternalId { get; private init; }
+    public string ExternalId { get; private set; }
 
     /// <summary>
     /// Электронная почта.
@@ -26,4 +29,12 @@ public class Profile:BaseEntities<Profile>
 
     // Навигационное свойство для связи с FavoriteDrug.
     public List<FavoriteDrug> FavoriteDrugs { get; private set; } = [];
+    public void Update(string externalId, Email? email)
+    {
+        ExternalId = externalId;
+        Email = email;
+
+        ValidateEntity(new ProfileValidator());
+    }
+
 }

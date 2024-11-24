@@ -18,7 +18,7 @@ namespace Domain.Entities
             
             ValidateEntity(new DrugStoreValidator());
         }
-
+        
         /// <summary>
         /// Сеть лекарств
         /// </summary>
@@ -35,7 +35,20 @@ namespace Domain.Entities
         /// Телефонный номер
         /// </summary>
         public string PhoneNumber { get; private set; } 
-        
+        /// <summary>
+        /// Метод для обновления свойств DrugStore.
+        /// </summary>
+        /// <param name="drugNetwork">Новая сеть аптеки.</param>
+        /// <param name="number">Новый номер аптеки.</param>
+        /// <param name="address">Новый адрес аптеки.</param>
+        /// <param name="phoneNumber">Новый номер телефона.</param>
+        public void Update(string drugNetwork, int number, Address address, string phoneNumber)
+        {
+            DrugNetwork = drugNetwork;
+            Number = number;
+            Address = address;
+            PhoneNumber = phoneNumber;
+        }
         // Навигационное свойство для связи с DrugItem
         public ICollection<DrugItem> DrugItems { get; private set; } = new List<DrugItem>();
     }

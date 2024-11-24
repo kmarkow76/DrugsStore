@@ -133,7 +133,7 @@ public class DrugItemValidatorTests
         var result = _validator.TestValidate(drugItem);
 
         // Проверка
-        result.ShouldHaveValidationErrorFor(d => d.DrugID)
+        result.ShouldHaveValidationErrorFor(d => d.DrugId)
             .WithErrorMessage(ValidationMessage.NotNull);
     }
 

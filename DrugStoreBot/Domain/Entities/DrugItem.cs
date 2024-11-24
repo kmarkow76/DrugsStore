@@ -10,7 +10,7 @@ namespace Domain.Entities
     {
         public DrugItem(Guid drugId, Drug drug, DrugsStore drugStore, Guid drugStoreId, double count, decimal cost)
         {
-            DrugID = drugId;
+            DrugId = drugId;
             Drug = drug;
             DrugStore = drugStore;
             DrugStoreId = drugStoreId;
@@ -19,11 +19,11 @@ namespace Domain.Entities
             
             ValidateEntity(new DrugItemValidator());
         }
-
+        
         /// <summary>
         /// ID лекарства
         /// </summary>
-        public Guid DrugID { get;private set; }
+        public Guid DrugId { get;private set; }
         /// <summary>
         /// ID магазина
         /// </summary>
@@ -39,6 +39,31 @@ namespace Domain.Entities
         // Навигационные свойства
         public Drug Drug { get; private set; }
         public DrugsStore DrugStore { get; private set; }
+
+        /// <summary>
+        /// Метод обновления DrugItem
+        /// </summary>
+        /// <param name="drugId">Идентификатор лекарства.</param>
+        /// <param name="drug">Лекарство.</param>
+        /// <param name="drugStoreId">Идентификатор аптеки.</param>
+        /// <param name="drugStore">Аптека.</param>
+        /// <param name="cost"></param>
+        /// <param name="count"></param>
+        public void Update(
+            Guid drugId,
+            Drug drug,
+            DrugsStore drugStore,
+            Guid drugStoreId,
+            double count,decimal cost)
+        {
+            DrugId = drugId;
+            Drug = drug;
+            DrugStore = drugStore;
+            DrugStoreId = drugStoreId;
+            Count = count;
+            Cost = cost;
+            ValidateEntity(new DrugItemValidator());
+        }
         /// <summary>
         /// Обновить количество препарата на складе.
         /// </summary>

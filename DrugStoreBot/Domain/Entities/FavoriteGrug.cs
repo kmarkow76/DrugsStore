@@ -21,7 +21,7 @@ public class FavoriteDrug : BaseEntities<FavoriteDrug>
         /// <summary>
         /// Идентификатор профиля.
         /// </summary>
-        public Guid ProfileId { get; private init; }
+        public Guid ProfileId { get; private set; }
 
         /// <summary>
         /// Идентификатор препарата.
@@ -37,5 +37,19 @@ public class FavoriteDrug : BaseEntities<FavoriteDrug>
         public Profile Profile { get; private set; }
         public Drug Drug { get; private set; }
         public DrugsStore? DrugStore { get; private set; }
-    
+        public void Update(
+            Guid profileId,
+            Guid drugId,
+            Profile profile,
+            Drug drug,
+            Guid? drugStoreId = null,
+            DrugsStore? drugStore = null)
+        {
+            ProfileId = profileId;
+            DrugId = drugId;
+            DrugStoreId = drugStoreId;
+            Profile = profile;
+            Drug = drug;
+            DrugStore = drugStore;
+        }
 }
