@@ -26,11 +26,11 @@ public class UpdateFavouriteDrugCommandHandler : IRequestHandler<UpdateFavoriteD
     }
     
     /// <summary>
-    /// Обработка обновления FavouriteDrug
+    /// Обработка обновления FavoriteDrug
     /// </summary>
     /// <param name="request">Запрос.</param>
     /// <param name="cancellationToken">Токен отмены.</param>
-    /// <returns>Обновленный FavouriteDrug.</returns>
+    /// <returns>Обновленный FavoriteDrug.</returns>
     public async Task<FavoriteDrug> Handle(UpdateFavoriteDrugCommand request, CancellationToken cancellationToken)
     {
         var favouriteDrug = await _favouriteDrugReadRepository.GetByIdAsync(request.FavoriteDrugId, cancellationToken);

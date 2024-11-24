@@ -6,8 +6,8 @@ namespace Application.UseCases.Commands.FavoriteDrugCommands.UpdateFavoriteDrugC
 /// <summary>
 /// Обновление FavoriteDrug
 /// </summary>
-/// <param name="ProfileId">Идентификатор UserProfile.</param>
-/// <param name="Profile">UserProfile.</param>
+/// <param name="ProfileId">Идентификатор Profile.</param>
+/// <param name="Profile">Profile.</param>
 /// <param name="DrugId">Идентификатор Drug.</param>
 /// <param name="Drug">Drug.</param>
 /// <param name="DrugStoreId">Идентификатор DrugStore.</param>
