@@ -1,0 +1,13 @@
+D:\DEX\DrugsStore\DrugStoreBot\Domain\bin\Debug\net8.0\Domain.deps.json
+D:\DEX\DrugsStore\DrugStoreBot\Domain\bin\Debug\net8.0\Domain.dll
+D:\DEX\DrugsStore\DrugStoreBot\Domain\bin\Debug\net8.0\Domain.pdb
+D:\DEX\DrugsStore\DrugStoreBot\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
+D:\DEX\DrugsStore\DrugStoreBot\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\DEX\DrugsStore\DrugStoreBot\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+D:\DEX\DrugsStore\DrugStoreBot\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+D:\DEX\DrugsStore\DrugStoreBot\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+D:\DEX\DrugsStore\DrugStoreBot\Domain\obj\Debug\net8.0\Domain.sourcelink.json
+D:\DEX\DrugsStore\DrugStoreBot\Domain\obj\Debug\net8.0\Domain.dll
+D:\DEX\DrugsStore\DrugStoreBot\Domain\obj\Debug\net8.0\refint\Domain.dll
+D:\DEX\DrugsStore\DrugStoreBot\Domain\obj\Debug\net8.0\Domain.pdb
+D:\DEX\DrugsStore\DrugStoreBot\Domain\obj\Debug\net8.0\ref\Domain.dll
