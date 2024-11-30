@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "SXRogahCjxQ=",
+  "dgSpecHash": "HkIs3khSOdmCa/a5qpyL06ui2ig0AZXt/HgdoyGce5RrSd+IzJxeA4YbhXG6YWQ7Mfp9rd6iWjcFUm/1xdgevw==",
   "success": true,
-  "projectFilePath": "D:\\DEX\\DrugsStore\\DrugStoreBot\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\Kirill\\Desktop\\DrugsStore\\DrugStoreBot\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Кирилл\\.nuget\\packages\\fluentvalidation\\11.10.0\\fluentvalidation.11.10.0.nupkg.sha512",
-    "C:\\Users\\Кирилл\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",
-    "C:\\Users\\Кирилл\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
-    "C:\\Users\\Кирилл\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+    "C:\\Users\\Kirill\\.nuget\\packages\\fluentvalidation\\11.10.0\\fluentvalidation.11.10.0.nupkg.sha512",
+    "C:\\Users\\Kirill\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",
+    "C:\\Users\\Kirill\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\Kirill\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
   ],
   "logs": []
 }

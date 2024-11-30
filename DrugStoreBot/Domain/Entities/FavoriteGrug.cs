@@ -2,7 +2,11 @@ namespace Domain.Entities;
 
 public class FavoriteDrug : BaseEntities<FavoriteDrug>
 {
-        public FavoriteDrug(
+    public FavoriteDrug()
+    {
+    }
+
+    public FavoriteDrug(
             Guid profileId,
             Guid drugId,
             Profile profile,

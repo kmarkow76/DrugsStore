@@ -1,0 +1,4 @@
+
+[csharpsquid:S3442"9Change the visibility of this constructor to 'protected'.(¾¤ÕŸùÿÿÿÿ
+Ccsharpsquid:S3875_"&Remove this overload of 'operator =='.(¸žãÙ
+gcsharpsquid:S927@"FRename parameter 'other' to 'obj' to match the base class declaration.(Œ±ÍØøÿÿÿÿ
