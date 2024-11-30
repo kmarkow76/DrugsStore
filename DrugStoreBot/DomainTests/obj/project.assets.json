@@ -995,19 +995,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Кирилл\\.nuget\\packages\\": {}
+    "C:\\Users\\Kirill\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DEX\\DrugsStore\\DrugStoreBot\\DomainTests\\DomainTests.csproj",
+      "projectUniqueName": "C:\\Users\\Kirill\\Desktop\\DrugsStore\\DrugStoreBot\\DomainTests\\DomainTests.csproj",
       "projectName": "DomainTests",
-      "projectPath": "D:\\DEX\\DrugsStore\\DrugStoreBot\\DomainTests\\DomainTests.csproj",
-      "packagesPath": "C:\\Users\\Кирилл\\.nuget\\packages\\",
-      "outputPath": "D:\\DEX\\DrugsStore\\DrugStoreBot\\DomainTests\\obj\\",
+      "projectPath": "C:\\Users\\Kirill\\Desktop\\DrugsStore\\DrugStoreBot\\DomainTests\\DomainTests.csproj",
+      "packagesPath": "C:\\Users\\Kirill\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Kirill\\Desktop\\DrugsStore\\DrugStoreBot\\DomainTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Кирилл\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Kirill\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1021,8 +1021,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\DEX\\DrugsStore\\DrugStoreBot\\Domain\\Domain.csproj": {
-              "projectPath": "D:\\DEX\\DrugsStore\\DrugStoreBot\\Domain\\Domain.csproj"
+            "C:\\Users\\Kirill\\Desktop\\DrugsStore\\DrugStoreBot\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\Kirill\\Desktop\\DrugsStore\\DrugStoreBot\\Domain\\Domain.csproj"
             }
           }
         }
@@ -1031,11 +1031,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -1067,7 +1062,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

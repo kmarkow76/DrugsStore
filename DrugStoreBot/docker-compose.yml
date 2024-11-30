@@ -22,3 +22,15 @@
     build:
       context: .
       dockerfile: Infrastructure/Dockerfile
+
+  infrastruction:
+    image: infrastruction
+    build:
+      context: .
+      dockerfile: Infrastruction/Dockerfile
+
+  infrastruction-1:
+    image: infrastruction-1
+    build:
+      context: .
+      dockerfile: Infrastruction/Dockerfile
