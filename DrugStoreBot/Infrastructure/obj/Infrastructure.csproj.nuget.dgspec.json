@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DEX\\DrugsStore\\DrugStoreBot\\Infrastructure\\Infrastructure.csproj": {}
+    "D:\\Практика(Зимняя)\\Проекты\\AAaaa\\DrugsStore\\DrugStoreBot\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "D:\\DEX\\DrugsStore\\DrugStoreBot\\Infrastructure\\Infrastructure.csproj": {
+    "D:\\Практика(Зимняя)\\Проекты\\AAaaa\\DrugsStore\\DrugStoreBot\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DEX\\DrugsStore\\DrugStoreBot\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "D:\\Практика(Зимняя)\\Проекты\\AAaaa\\DrugsStore\\DrugStoreBot\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "D:\\DEX\\DrugsStore\\DrugStoreBot\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "D:\\Практика(Зимняя)\\Проекты\\AAaaa\\DrugsStore\\DrugStoreBot\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Кирилл\\.nuget\\packages\\",
-        "outputPath": "D:\\DEX\\DrugsStore\\DrugStoreBot\\Infrastructure\\obj\\",
+        "outputPath": "D:\\Практика(Зимняя)\\Проекты\\AAaaa\\DrugsStore\\DrugStoreBot\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Кирилл\\AppData\\Roaming\\NuGet\\NuGet.Config",

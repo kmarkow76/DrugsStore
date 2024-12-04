@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7Sw3dTUXTwk=",
+  "dgSpecHash": "fV67unduQ84=",
   "success": true,
-  "projectFilePath": "D:\\DEX\\DrugsStore\\DrugStoreBot\\Application\\Application.csproj",
+  "projectFilePath": "D:\\Практика(Зимняя)\\Проекты\\AAaaa\\DrugsStore\\DrugStoreBot\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Кирилл\\.nuget\\packages\\fluentvalidation\\11.10.0\\fluentvalidation.11.10.0.nupkg.sha512",
     "C:\\Users\\Кирилл\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",

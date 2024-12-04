@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6Ir/HA8PHPA=",
+  "dgSpecHash": "HA1urBwWppA=",
   "success": true,
-  "projectFilePath": "D:\\DEX\\DrugsStore\\DrugStoreBot\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "D:\\Практика(Зимняя)\\Проекты\\AAaaa\\DrugsStore\\DrugStoreBot\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Кирилл\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.11\\microsoft.aspnetcore.openapi.8.0.11.nupkg.sha512",
     "C:\\Users\\Кирилл\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
