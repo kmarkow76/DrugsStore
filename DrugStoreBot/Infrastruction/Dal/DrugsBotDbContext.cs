@@ -1,5 +1,9 @@
 using Domain.Entities;
+using Infrastruction.Dal.Configuration;
+using Infrastruction.Dal.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
+using Microsoft.OpenApi.Any;
 
 namespace Infrastruction.Dal;
 /// <summary>
@@ -7,17 +11,14 @@ namespace Infrastruction.Dal;
 /// </summary>
 public class DrugsBotDbContext : DbContext
 {
+    private readonly DatabaseSettings _options;
+
     /// <summary>
     /// Конструктор
     /// </summary>
-    public DrugsBotDbContext(DbContextOptions<DrugsBotDbContext> options) : base(options)
+    public DrugsBotDbContext(IOptions<DatabaseSettings> options)
     {
-    }
-    /// <summary>
-    /// Пустой конструктор для EF
-    /// </summary>
-    public DrugsBotDbContext()
-    {
+        _options = options.Value;
     }
     /// <summary>
     /// Сущность профиля
@@ -53,10 +54,10 @@ public class DrugsBotDbContext : DbContext
     /// </summary>
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        base.OnConfiguring(optionsBuilder);
-
-        optionsBuilder.UseNpgsql(
-            "User ID=postgres;Password=123;Host=localhost;Port=5432;Database=DrugsBot;");
+        optionsBuilder.UseNpgsql(_options.ConnectionString, (options) =>
+        {
+            options.CommandTimeout(_options.CommandTimeout);
+        });
     }
 
     /// <summary>
@@ -64,6 +65,11 @@ public class DrugsBotDbContext : DbContext
     /// </summary>
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.ApplyConfigurationsFromAssembly(typeof(DrugsBotDbContext).Assembly);
+        modelBuilder.ApplyConfiguration(new DrugConfiguration());
+        modelBuilder.ApplyConfiguration(new DrugItemConfiguration());
+        modelBuilder.ApplyConfiguration(new DrugStoreConfiguration());
+        modelBuilder.ApplyConfiguration(new CountryConfiguration());
+        modelBuilder.ApplyConfiguration(new ProfileConfiguration());
+        modelBuilder.ApplyConfiguration(new FavoriteDrugConfiguration());
     }
 }
