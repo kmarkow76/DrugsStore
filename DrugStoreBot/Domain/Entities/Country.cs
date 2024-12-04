@@ -15,7 +15,10 @@ namespace Domain.Entities
             Name = name;
             Code = code;
         }
-        
+
+        public Country()
+        {
+        }
         /// <summary>
         /// Название страны
         /// </summary>

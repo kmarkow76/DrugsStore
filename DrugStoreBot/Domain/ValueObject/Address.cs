@@ -25,10 +25,10 @@ namespace Domain.ValueObject
         /// Дом
         /// </summary>
         public string House{ get; set; }
-        public string PostalCode { get; set; }
         /// <summary>
         /// Код страны (ISO)
         /// </summary>
+        public string PostalCode { get; set; }
         public string Country { get; private set; }
         /// <summary>
         /// Возвращает строковое представление адреса.
