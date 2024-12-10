@@ -54,6 +54,7 @@ public class DrugsBotDbContext : DbContext
     /// </summary>
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
+        base.OnConfiguring(optionsBuilder);
         optionsBuilder.UseNpgsql(_options.ConnectionString, (options) =>
         {
             options.CommandTimeout(_options.CommandTimeout);

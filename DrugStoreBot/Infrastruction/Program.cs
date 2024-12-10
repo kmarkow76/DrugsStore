@@ -10,13 +10,15 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+
+builder.Services.Configure<DatabaseSettings>(builder.Configuration.GetSection(nameof(DatabaseSettings)));
 builder.Services.AddDbContext<DrugsBotDbContext>((serviceProvider, options) =>
 {
-    var databaseSettings = serviceProvider.GetRequiredService<IOptions<DatabaseSettings>>().Value;
+    var dataBaseSettings = serviceProvider.GetRequiredService<IOptions<DatabaseSettings>>().Value;
 
-    options.UseNpgsql(databaseSettings.ConnectionString, npgsqlOptions =>
+    options.UseNpgsql(dataBaseSettings.ConnectionString, npgsqlOptions =>
     {
-        npgsqlOptions.CommandTimeout(databaseSettings.CommandTimeout);
+        npgsqlOptions.CommandTimeout(dataBaseSettings.CommandTimeout);
     });
 });
 
