@@ -1000,11 +1000,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DEX\\DrugsStore\\DrugStoreBot\\DomainTests\\DomainTests.csproj",
+      "projectUniqueName": "D:\\Практика(Зимняя)\\Проекты\\AAaaa\\DrugsStore\\DrugStoreBot\\DomainTests\\DomainTests.csproj",
       "projectName": "DomainTests",
-      "projectPath": "D:\\DEX\\DrugsStore\\DrugStoreBot\\DomainTests\\DomainTests.csproj",
+      "projectPath": "D:\\Практика(Зимняя)\\Проекты\\AAaaa\\DrugsStore\\DrugStoreBot\\DomainTests\\DomainTests.csproj",
       "packagesPath": "C:\\Users\\Кирилл\\.nuget\\packages\\",
-      "outputPath": "D:\\DEX\\DrugsStore\\DrugStoreBot\\DomainTests\\obj\\",
+      "outputPath": "D:\\Практика(Зимняя)\\Проекты\\AAaaa\\DrugsStore\\DrugStoreBot\\DomainTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Кирилл\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1021,8 +1021,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\DEX\\DrugsStore\\DrugStoreBot\\Domain\\Domain.csproj": {
-              "projectPath": "D:\\DEX\\DrugsStore\\DrugStoreBot\\Domain\\Domain.csproj"
+            "D:\\Практика(Зимняя)\\Проекты\\AAaaa\\DrugsStore\\DrugStoreBot\\Domain\\Domain.csproj": {
+              "projectPath": "D:\\Практика(Зимняя)\\Проекты\\AAaaa\\DrugsStore\\DrugStoreBot\\Domain\\Domain.csproj"
             }
           }
         }
