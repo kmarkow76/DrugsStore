@@ -5,7 +5,7 @@ namespace Application.Interface.Repositories.CountryRepositories;
 /// <summary>
 /// Репозиторий для операций записи сущности Country
 /// </summary>
-public interface ICountryWriteRepository  : IWriteReposirory<Country>
+public interface ICountryWriteRepository  : IWriteRepository<Country>
 {
     
 }

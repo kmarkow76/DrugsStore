@@ -165,11 +165,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DEX\\DrugsStore\\DrugStoreBot\\Domain\\Domain.csproj",
+      "projectUniqueName": "D:\\Практика(Зимняя)\\Проекты\\AAaaa\\DrugsStore\\DrugStoreBot\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "D:\\DEX\\DrugsStore\\DrugStoreBot\\Domain\\Domain.csproj",
+      "projectPath": "D:\\Практика(Зимняя)\\Проекты\\AAaaa\\DrugsStore\\DrugStoreBot\\Domain\\Domain.csproj",
       "packagesPath": "C:\\Users\\Кирилл\\.nuget\\packages\\",
-      "outputPath": "D:\\DEX\\DrugsStore\\DrugStoreBot\\Domain\\obj\\",
+      "outputPath": "D:\\Практика(Зимняя)\\Проекты\\AAaaa\\DrugsStore\\DrugStoreBot\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Кирилл\\AppData\\Roaming\\NuGet\\NuGet.Config",

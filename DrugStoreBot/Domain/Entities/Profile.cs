@@ -9,6 +9,10 @@ namespace Domain.Entities;
 /// </summary>
 public class Profile:BaseEntities<Profile>
 {
+    public Profile()
+    {
+    }
+
     public Profile(string externalId, Email? email)
     {
         ExternalId = externalId;
