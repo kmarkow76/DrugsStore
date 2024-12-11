@@ -1,15 +1,9 @@
 namespace Application.Interface.Repositories;
 
-public interface IWriteReposirory<T> where T : class
+public interface IWriteRepository<T> where T : class
 {
-    /// <summary>
-    /// Репозиторий для операций чтения
-    /// </summary>
-    IReadOnlyList<T> ReadRepository { get; }
-    
-    /// <summary>
-    /// Метод для добавления сущностей
-    /// </summary>
+  
+    /// Метод для добавления сущносте
     /// <param name="entity"></param>
     /// <param name="cancellationToken"></param>
     /// <returns></returns>
